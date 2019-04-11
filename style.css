@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+
+
+html, body{
+  padding:0px;
+  margin: 0px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navigation{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #eeebe9;
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://media1.s-nbcnews.com/j/newscms/2019_10/1416018/vacuum-review-today-main-190308_65d47cddfb0ae1b9c4aaf171bed57e2c.fit-760w.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2{
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+nav{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+
+li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+li:hover{
+
+}
+
+button{
+  align-self: center;
+}
+button:focus{
+  outline: 0;
+}
+
+.enter{
+  cursor: pointer;
+  display: flex;
+  padding: 12px 19px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  font-size: 21px;
+  border-radius: 0;
+  transition: all .3s ease;
+
+  width: 70px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.enter:hover{
+  background: white;
+  color: black;
+}
+
+section{
+  height: 1000px;
+  margin-right:70px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+section h1{
+  /* text-align:center; */
+  font-size: 70px;
+}
+section img{
+  height:200px;
+  width:200px;
+}
+.contact{
+  /* color:#505050; */
+  background: url('https://cache-landingpages-images.services.handy.com/2019/02/26/16/36/42/6ebacf5a-5f55-4344-a602-16bd891289e8/cleaning-background-mop-washing-wooden-floor-before-and-after-effect-picture-id936143410.jpg');
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.top{
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://media1.s-nbcnews.com/j/newscms/2019_10/1416018/vacuum-review-today-main-190308_65d47cddfb0ae1b9c4aaf171bed57e2c.fit-760w.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  height: 100vh;
+}
+
+.social-btn{
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 8px;
+  border-radius: 45px;
+}
+.social-btn:hover{
+  opacity:0.7;
+}
+.socialBtn{
+  display:flex;
+}
+
+footer{
+ /* color: #eeebe9;
+ background-color: black; */
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 30px;
+ height: 300px;
+ flex-direction: column;
+}
