@@ -6,6 +6,7 @@ html, body{
   padding:0px;
   margin: 0px;
   font-family: 'PT Sans Narrow', sans-serif;
+  color:#212223;
 }
 
 .navigation{
@@ -24,6 +25,9 @@ header{
   justify-content: space-between;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://media1.s-nbcnews.com/j/newscms/2019_10/1416018/vacuum-review-today-main-190308_65d47cddfb0ae1b9c4aaf171bed57e2c.fit-760w.jpg");
   background-attachment: fixed;
+
+  position:absolute;
+
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -32,6 +36,11 @@ header{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 h2{
@@ -54,10 +63,13 @@ nav ul{
 li {
   margin-left: 20px;
   margin-right: 20px;
+  transition: all 0.20s ease-in-out;
+  cursor: pointer;
 }
 
 li:hover{
-
+  color:#59b4b7;
+  transition: all 0.20s ease-in-out;
 }
 
 button{
@@ -89,6 +101,34 @@ button:focus{
   color: black;
 }
 
+.info{
+  display:flex;
+  align-items:center;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.info-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.info-txt p{
+  margin-top:0px;
+  color:#5f5f5f;
+  width: 200px;
+}
+
+#dependable{
+  flex-direction: row-reverse;
+}
+
+.info-txt h4{
+  font-size: 18px;
+}
 section{
   height: 1000px;
   margin-right:70px;
@@ -107,11 +147,21 @@ section img{
 .contact{
   /* color:#505050; */
   background: url('https://cache-landingpages-images.services.handy.com/2019/02/26/16/36/42/6ebacf5a-5f55-4344-a602-16bd891289e8/cleaning-background-mop-washing-wooden-floor-before-and-after-effect-picture-id936143410.jpg');
+  background-size: cover;
   height: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 100px;
+}
+.contact h4{
+  cursor: pointer;
+  transition: all 0.20s ease-in-out;
+}
+
+.contact h4:hover{
+  color:#59b4b7;
+  transition: all 0.20s ease-in-out;
 }
 
 .top{
@@ -143,13 +193,15 @@ section img{
   display:flex;
 }
 
+
 footer{
  /* color: #eeebe9;
  background-color: black; */
  display: flex;
  justify-content: space-around;
  align-items: center;
- margin-top: 30px;
+ /* margin-top: 30px; */
  height: 300px;
  flex-direction: column;
+ background-color: #f9fafc;
 }
