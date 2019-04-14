@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 700px)" href="css/mobile.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <title>Moreno Cleaning</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -28,7 +31,7 @@
             <ul>
               <a href="index.html"><li>Home</li></a>
               <li onclick="toAbout()">About</li>
-              <li>Contact</li>
+              <li onClick="toContact()">Contact</li>
             </ul>
           </nav>
         </div>
@@ -44,7 +47,7 @@
     </div>
 
     <section>
-      <h1>Who We Are</h1>
+      <h1>About Us</h1>
       <div class="container">
         <div class="info" id="service">
           <img src="https://user-images.githubusercontent.com/15840617/31617371-ae68471e-b297-11e7-9981-269c9bb17330.png" alt="">
@@ -73,13 +76,16 @@
 
     <div class="contact">
       <h4>Contact</h4>
+      <div class="socialBtn">
+        <!-- <a href="https://www.facebook.com/lasupermarketa/" target="_blank" class="fa fa-facebook"></a> -->
+        <a href="mailto:newhaven@lasupermarqueta.com"><img class="social-btn" id="email" src="https://i.imgur.com/qsoAXVB.png" alt="email"/></a>
+        <!-- <div style="font-size:45px;"><a href="tel:203-865-7936"><i class="fas fa-phone-square"></i></a></div> -->
+        <a><img class="phone-icon" src="https://lifelinecentralwest.org.au/wp-content/uploads/2016/11/Phone-Icon.png" alt="phone"></a>
+      </div>
     </div>
 
     <footer>
-      <div class="socialBtn">
-        <a href="https://www.facebook.com/lasupermarketa/" target="_blank" class="fa fa-facebook"></a>
-        <a href="mailto:newhaven@lasupermarqueta.com"><img class="social-btn" id="email" src="https://i.imgur.com/qsoAXVB.png" alt="email"/></a>
-      </div>
+
       <h4>Built by <a href="http://jospera.com" target="_blank"> Josie Peralta</a></h4>
     </footer>
     <script src="app.js"></script>
